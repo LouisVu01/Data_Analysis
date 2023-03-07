@@ -1,29 +1,29 @@
 --CREATE DATABASE PortfolioProject
 
---Select *
---From PortfolioProject..CovidDeaths
---Where continent is not null
---Order by 3,4
+Select *
+From PortfolioProject..CovidDeaths
+Where continent is not null
+Order by 3,4
 
---Select *
---From PortfolioProject..CovidVaccinations
---Order by 3,4
+Select *
+From PortfolioProject..CovidVaccinations
+Order by 3,4
 
 ----Change Datatype
---ALTER TABLE PortfolioProject..CovidDeaths
---Alter COLUMN total_cases int
+ALTER TABLE PortfolioProject..CovidDeaths
+Alter COLUMN total_cases int
 --Change Datatype
---ALTER TABLE PortfolioProject..CovidDeaths
---Alter COLUMN date date
+ALTER TABLE PortfolioProject..CovidDeaths
+Alter COLUMN date date
 
---ALTER TABLE PortfolioProject..CovidDeaths
---Alter COLUMN total_deaths int
+ALTER TABLE PortfolioProject..CovidDeaths
+Alter COLUMN total_deaths int
 
 
 ----Select Data that we are going to use
---Select Location, date, total_cases, new_cases, total_deaths, Population
---From PortfolioProject..CovidDeaths
---Order by 1,2
+Select Location, date, total_cases, new_cases, total_deaths, Population
+From PortfolioProject..CovidDeaths
+Order by 1,2
 
 
 -- Looking at total_cases vs total_deaths
